@@ -1,11 +1,11 @@
 import React from 'react'
-import Sidebar from './component/SideBar/sidebar';
+import Sidebar from './component/SideBar/Sidebar';
 import Main from './component/Main/Main';
 const App =()=>{
   return (
     <>
-<Sidebar></Sidebar>
-<Main/>
+      <Sidebar></Sidebar>
+      <Main/>
     </>
   )
 }
